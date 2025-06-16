@@ -94,3 +94,19 @@ Arguments:
     --output_folder: Directory where alignment results will be saved.
 ```
 ---
+
+
+## Start ASR Fine-Tuning
+
+```bash
+python train.py
+
+```
+---
+## Evaluate Fine-Tuned Whisper Model
+
+```bash
+python evaluate_whisper.py
+
+```
+---
