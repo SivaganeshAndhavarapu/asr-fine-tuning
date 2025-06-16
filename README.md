@@ -36,7 +36,7 @@ python download_files.py --csv files.csv --out file_downloads --workers 4
     --csv: Path to the CSV file containing download URLs. (path to both transcpit and audio files path in the csv)
     --out: Output directory where downloaded files will be saved.
     --workers: Number of parallel download threads (default is 4).
-
+```
 ---
 ###  Clean and Process PDF Files
 
@@ -49,6 +49,7 @@ python clean_pdfs.py --input /path/to/pdf_folder --output /path/to/output_folder
 
     --input: Path to the folder containing raw PDF files.
     --output: Destination folder where cleaned and processed outputs will be saved.
+```
 ---
 ### Process Transcript Text Files
 
@@ -61,6 +62,7 @@ python process_transcripts.py --input /path/to/raw_txts --output /path/to/cleane
 
     --input: Directory containing raw transcript .txt files.
     --output: Directory where cleaned transcript files will be saved.
+```
 ---
 ##  Trim and Convert Audio Files
 
@@ -73,6 +75,7 @@ Arguments:
 
     --input: Directory containing input .mp3 audio files.
     --output: Destination directory to save processed .wav files.
+```
 ---
 ## Forced Alignment with Aeneas
 
@@ -89,4 +92,5 @@ Arguments:
     --wav_folder: Directory containing input .wav files (mono, 16kHz recommended).
     --txt_folder: Directory containing corresponding .txt transcript files.
     --output_folder: Directory where alignment results will be saved.
+```
 ---
