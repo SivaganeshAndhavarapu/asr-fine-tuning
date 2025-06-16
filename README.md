@@ -14,7 +14,6 @@ This guide explains how to create a Python virtual environment and install requi
 
 ## Clone the Repository
 
-```bash
 git https://github.com/SivaganeshAndhavarapu/asr-fine-tuning.git
 cd asr-fine-tuning
 
