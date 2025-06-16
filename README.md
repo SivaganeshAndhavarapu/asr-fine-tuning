@@ -19,12 +19,12 @@ cd asr-fine-tuning
 
 ### Create Virtual Environment
 
-
+```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
-
+```
 ---
 ### Download the pdf tanscrpit and audio files
 
