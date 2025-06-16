@@ -1,6 +1,6 @@
 # 🧪 ASR Fine-Tuning Environment Setup
 
-This guide explains how to create a Python virtual environment and install required dependencies for fine-tuning Whisper models.
+This guide explains how to create a Python virtual environment and install required dependencies for fine-tuning ASR models.
 
 ---
 
@@ -14,7 +14,7 @@ This guide explains how to create a Python virtual environment and install requi
 
 ## Clone the Repository
 
-git https://github.com/SivaganeshAndhavarapu/asr-fine-tuning.git
+git clone https://github.com/SivaganeshAndhavarapu/asr-fine-tuning.git
 cd asr-fine-tuning
 
 ### Create Virtual Environment
