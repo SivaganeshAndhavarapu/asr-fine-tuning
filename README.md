@@ -101,12 +101,20 @@ Arguments:
 ```bash
 python train.py
 
+Arguments:
+
+    --csv: audio path with text contains hard coded in the scrpit for train data.
+
 ```
 ---
 ## Evaluate Fine-Tuned Whisper Model
 
 ```bash
 python evaluate_whisper.py
+
+Arguments:
+
+    --csv: audio path with text contains hard coded in the scrpit for test data.
 
 ```
 ---
