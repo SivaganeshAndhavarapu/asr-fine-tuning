@@ -13,7 +13,7 @@ dataset = load_dataset("csv", data_files={"train": csv_path}, split="train")
 dataset = dataset.cast_column("path", Audio(sampling_rate=16000))
 dataset = dataset.filter(lambda example: example["text"] and example["text"].strip() != "")
 # ----------- Load Whisper Model and Processor -------------
-model_name = "openai/whisper-base.en"
+model_name = "openai/whisper-base.en" # for other model need to change
 processor = WhisperProcessor.from_pretrained(model_name)
 model = WhisperForConditionalGeneration.from_pretrained(model_name)
 
